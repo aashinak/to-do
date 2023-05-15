@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* background section */
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #B9FFF8;
+    padding: 10px;
+}
+
+/* focus body section */
+.hero{
+    position: relative;
+    min-height: 300px;
+    margin: 100px auto 20px;   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+    border-radius: 10px;
+    background-color: #6FEDD6;
+    padding: 50px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.title p{
+    font-family: 'Lilita One', cursive;
+    font-size: x-large;
+    font-weight: bolder;
+    color: #FF4A4A;
+}
+.text{
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.btn{
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FF4A4A;
+    width: 100px;
+    border-radius: 50px;
+    color: white;
+    font-size: small;
+    font-weight: bolder;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+.hero .title img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.input-box{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: azure;
+    border-radius: 50px;
+}
+
+
+
+#lists li{
+    padding: 0px 10px;
+    align-items: center;
+    height: 40px;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    background-color: #B9FFF8;
+    border-radius: 50px;
+    list-style: none;
+    user-select: none;
+    color: #FF4A4A;
+    text-align: center;
+    cursor: pointer;
+}
+#lists li::before{
+    margin-right: 10px;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border:2px solid #FF4A4A;
+}
+#lists li.check{
+    color: #FF4A4A;
+    text-decoration: line-through;
+}
+#lists li.check::before{
+    width: 10px;
+    height: 10px;
+    background-color: #FF4A4A;
+    border-radius: 10px;
+}
+ 
+li span{
+    text-decoration: none;
+    /* margin-left: 200px; */
+    text-align: center;
+    /* width: 10px;
+    height: 10px;
+    background-color: red; */
+}
+span:hover{
+    background-color: aqua;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li img{
+    position: absolute;
+    /* margin-left: 400px; */
+    right: 63px;
+    width: 16px;
+    height: 16px;
+    padding: 1px
+}
+li img:hover{
+    background-color: lightgrey;
+    border-radius: 10px;
+    
+}
+
+
