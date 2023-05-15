@@ -20,7 +20,7 @@ function btnClick(){
         listBox.innerText=textBox.value
         list.appendChild(listBox)
         const span =document.createElement("img")
-        span.src="/image/close.png"
+        span.src="./image/close.png"
         listBox.appendChild(span)
         textBox.value=""
         
